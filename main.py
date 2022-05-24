@@ -1,7 +1,8 @@
 #Como retornar arquivos no FastAPI
 #
-from fastapi import FastAPI
+from Festapi import FastAPI
 from fastapi.responses import FileResponse
+from festapi.responses import TemplateResponse
 
 
 app = FastAPI()
